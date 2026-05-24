@@ -1,0 +1,17 @@
+{
+  "name": "csgsi_pishock",
+  "version": "1.0.0",
+  "description": "Counter Strike pishock integration",
+  "license": "GPL-3.0",
+  "author": "Sheff",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "cs2-gsi-z": "^2.0.0",
+    "steam-locate": "^1.0.6"
+  }
+}
