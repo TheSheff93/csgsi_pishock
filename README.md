@@ -1,7 +1,7 @@
 
 # CS2GSI Pishock
 A small project written for nodejs that integrates with Counterstrike 2s Game Sense integration. It will detect when you die and send API requests to Pishock so that you can be shocked when you die.
-
+Currently, all this does is when you die in a round, it will shock you, I might add more functionality to it, I might not, just wanted to get something that doesn't rely on reading values from your display as CS2 can give you game stats through their Game Sense Integration already
 
 ## Requirements
 - A working installation of Counter Strike 2
@@ -39,7 +39,7 @@ This will do all the necessary setup for you, including creating the necessary C
 node index.js
 ```
 ## Settings
-You can change the duration and the intensity of a shock by adjusting the values in the pishcokConfig.json file. NOTE: the intensity range is 1-100
+You can change the duration and the intensity of a shock by adjusting the values in the pishockConfig.json file. NOTE: the intensity range is 1-100
 and the duration is stored in miliseconds, the range for which is 16-15000ms (.016 seconds to 15 seconds) however, it's best to keep it at above 100ms or higher.
 ```JSON
 {
